@@ -1,0 +1,25 @@
+/* Estilos para el encabezado de la pizzería */
+.header-container {
+  /* Imagen de fondo según el apoyo del hito 1 */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 30vh; /* Altura relativa a la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header-container p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
