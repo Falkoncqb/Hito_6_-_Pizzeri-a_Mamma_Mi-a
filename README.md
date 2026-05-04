@@ -1,22 +1,19 @@
-# React + Vite
+Pizzería Mamma Mía - Hito 6
+📝 Descripción
+Este proyecto es una aplicación web interactiva desarrollada con React para una pizzería. Permite a los usuarios explorar un menú dinámico, gestionar un carrito de compras en tiempo real y navegar a través de diferentes vistas de forma fluida. El enfoque principal de este hito fue la centralización del estado mediante Context API y la implementación de Rutas Dinámicas.
 
-Pizzeria Mamma Mia
-Descripción
-Pizzeria Mamma Mia es una aplicación web interactiva para un restaurante de pizzas, desarrollada con tecnologías modernas de frontend. La aplicación permite a los usuarios explorar el menú de pizzas disponibles, visualizar detalles como ingredientes y precios, y gestionar su cuenta mediante formularios de registro y login.
-
-Tecnologías Utilizadas
-React 19: Framework de JavaScript para la construcción de interfaces de usuario dinámicas y reutilizables.
-Vite: Herramienta de desarrollo rápida y moderna para proyectos web, que proporciona un servidor de desarrollo con recarga en caliente (HMR).
-Bootstrap 5: Framework CSS para el diseño responsivo y componentes de interfaz de usuario estilizados.
-ESLint: Herramienta de linting para mantener la calidad del código JavaScript/React.
-Características Destacadas
-
-Menú Interactivo: Visualización de pizzas con tarjetas que incluyen nombre, precio, ingredientes y imagen.
-Formularios de Registro y Login:
-Registro: Formulario completo con validación de email, contraseña y confirmación de contraseña.
-Login: Formulario de autenticación con validación de credenciales.
-Ambos formularios incluyen manejo de errores en tiempo real y mensajes de éxito.
-Navegación Fluida: Barra de navegación que permite cambiar entre las secciones de inicio, registro y login.
-Diseño Responsivo: Interfaz adaptada para dispositivos móviles y de escritorio utilizando Bootstrap.
+🚀 Características Principales
+Gestión de Estado Global: Implementación de CartContext para manejar el carrito de compras y UserContext para simular sesiones de usuario (Login/Logout).
+Carrito de Compras Dinámico: Los usuarios pueden añadir, aumentar y disminuir cantidades de pizzas, con un total sincronizado automáticamente entre la página de carrito y la barra de navegación.
+Navegación Dinámica: Uso de rutas parametrizadas (/pizza/:id) y el hook useParams para mostrar detalles específicos de cada pizza de forma eficiente.
+Autenticación Simulada: Barra de navegación reactiva que cambia según el estado de sesión del usuario (Token dinámico).
+Diseño Responsivo: Interfaz moderna y adaptable construida con componentes de Bootstrap.
+🛠️ Tecnologías Utilizadas
+React 19: Biblioteca principal para la construcción de la interfaz de usuario.
+Vite 5: Herramienta de construcción y servidor de desarrollo ultra-rápido.
+React Router Dom 7: Para la gestión de la navegación y rutas dinámicas.
+Context API: Para la gestión de estados globales sin prop drilling.
+Bootstrap 5: Framework de CSS para el diseño visual y componentes responsivos.
+JavaScript (ES6+): Lógica de programación moderna.
 
 
